@@ -1,0 +1,15 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.main {
+  background-color: aqua;
+width: 100%;
+min-height: 100vh;
+
+background-image: url(../1.png);
+background-size: 100% 100%;
+}
+.main img{
+    margin-left: 20%;
+}
