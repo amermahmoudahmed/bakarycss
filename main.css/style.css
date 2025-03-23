@@ -1,15 +1,219 @@
 body {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 .main {
-  background-color: aqua;
-width: 100%;
-min-height: 100vh;
-
-background-image: url(../1.png);
-background-size: 100% 100%;
+  width: 100%;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
-.main img{
-    margin-left: 20%;
+.nav {
+  width: 90%;
+  margin: auto;
+}
+.nav img {
+  float: left;
+  padding: 50px 0px 0px 0px;
+}
+.nav li ul a {
+  color: white;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+}
+.center {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+.center h1 {
+  font-size: 75px;
+}
+.btn2 {
+  color: white;
+  padding: 20px;
+  background-color: transparent;
+  margin: 5px;
+  font-weight: 900;
+  border-color: aliceblue;
+}
+.btn1 {
+  color: white;
+  padding: 20px;
+  background-color: burlywood;
+  margin: 5px;
+  font-weight: 900;
+  border: none;
+}
+.clean {
+  clear: both;
+}
+.main2 {
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+}
+.img {
+  float: left;
+
+  width: 34%;
+  padding-top: 50px;
+}
+.pragraph {
+  float: right;
+  color: gray;
+}
+
+.qustion {
+  color: black;
+  font-size: 50px;
+}
+.main3 {
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #f8f8f8;
+}
+.main3 img {
+  float: right;
+  width: 45%;
+}
+.main3 .pragraph2 {
+  float: left;
+  color: gray;
+  font-size: 17px;
+}
+.main3 .pragraph2 h1 {
+  color: black;
+  font-size: 25px;
+}
+.main3 .pragraph2 .one,
+.two {
+  margin: 20px;
+  line-height: 2;
+}
+
+.section {
+  text-align: center;
+  margin-top: 50px;
+}
+.section .item {
+  width: 33.333%;
+  float: left;
+}
+.section h1,
+p {
+  text-align: center;
+}
+.section .item img {
+  width: 100%;
+}
+.clean {
+  clear: both;
+}
+.inner {
+  margin: 30px;
+}
+.section p {
+  color: gray;
+  text-align: center;
+}
+.section .item h4 {
+  text-align: center;
+  color: black;
+}
+.section2 {
+  width: 90%;
+  padding-top: 40px;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  margin: auto;
+}
+.section2 .text {
+  float: left;
+  margin: 50px;
+}
+.section2 .text h1 {
+  color: black;
+  font-size: 20px;
+}
+.section2 .text p {
+  color: gray;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.section2 .text h5,
+h4 {
+  color: gray;
+}
+.location iframe {
+  width: 35%;
+  float: right;
+}
+hr {
+  border: 1px solid rgb(80, 78, 73); 
+  width: 200px;
+}
+
+.section3 {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 60px;
+  text-align: center;
+  background-image: url(../images/contact-details-map.png);
+  background-color: #403d38;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.section3 h1 {
+  color: white;
+  font-size: 19px;
+  margin: 25px;
+}
+.section3 p,
+h3 {
+  color: gray;
+}
+.section3 li {
+  float: left;
+  width: 25%;
+  list-style: none;
+}
+.section3 .inner2 ul li p {
+  padding: 15px;
+}
+.section3 h3 {
+  font-size: 14px;
+}
+.section3 .inner2 ul {
+  padding: 0px;
+  margin: 0px;
+} 
+.section3 .inner2 ul li p {
+  padding: 25px;
+  margin: 0px;
+}
+  
+
+.end {
+  width: 100%;
+}
+.end p {
+  color: gray;
+  text-align: center;
+}
+.icons {
+  background-color: #373234;
+  margin-top: 110px;
+}
+.icons .photo {
+  width: 3%;
+  border-radius: 50px;
+  background-color: rgb(64, 61, 56);
+  cursor: pointer;
 }
